@@ -1,0 +1,98 @@
+.navibar{
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #d6d6d6;
+    width: 100vw;
+}
+.star{
+    animation: star 2s linear infinite forwards;
+}
+@keyframes star{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+.venue{
+    background: linear-gradient(-250deg, #ca9003,#5576cf);
+}
+.ibadanTechExpoTxt{
+    margin-top: 170px;
+}
+.venuebg{
+    background: url(img/Venue-1-38edfbf0.png);
+    background-size: cover;
+    min-height: 500px;
+}
+
+/* cards section */
+.firstCard, .secondCard, .thirdCard{
+    font-size: 14px;
+}
+
+/* for second card positioning */
+.cardsectionGroup{
+    position: relative;
+}
+.secondCard{
+    position: relative;
+    margin-top: -60px;
+
+}
+
+.firstCard, .secondCard, .thirdCard{
+    transition: all 2s ease;
+}
+.firstCard:hover{
+    background: green;
+    color: white;
+}
+
+.thirdCard:hover{
+    background: rgb(45, 42, 221);
+    color: white;
+}
+.ticketsSection{
+    margin-top: 120px;
+}
+
+/* Prizes section */
+.prizes{
+    background: linear-gradient(-1050deg,  #132351, #132351,#132351,#132351,#c65762);
+    padding: 30px;
+    color: white;
+    width: 100%;
+    height: inherit;
+   
+}
+.prizes{
+    margin-top: 100px;
+    font-size: large;
+}
+
+.laptop, .watch{
+    transition: all 1s ease;
+}
+.laptop:hover{
+    transform: rotate(30deg);
+   
+}
+.watch:hover{
+    transform: rotate(-20deg);   
+}
+.section2, .section3, .section4{
+    margin-top: 90px;
+}
+
+.footer{
+    background: #132351;
+}
+.footerNav a{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
